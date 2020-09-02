@@ -1,4 +1,4 @@
-Puzzle NodeJs Training Exercise
+Puzzle NodeJs Training Exercise Part2
 
 API constructed with:
 
@@ -6,6 +6,11 @@ API constructed with:
 - Apollo Server
 - Cors
 - Dotenv
+- Mongoose
+- Bcryptjs
+- Graphql-iso-date
+- uuid
+
 
 _still in the making_
 "# puzzle-nodejs-api-exercise-p2" 
