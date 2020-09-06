@@ -7,9 +7,9 @@ extend type Query {
 }
 
 input createTaskInput {
+    userId: ID!
     name: String!
     completed: Boolean!
-    userId: ID!
 }
 
 extend type Mutation{
@@ -20,5 +20,7 @@ type Task {
     name: String!
     completed: Boolean!
     user: User!
+    createdAt: Date!
+    updatedAt: Date!
 }
 `
