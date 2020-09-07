@@ -32,4 +32,8 @@ type User {
     createdAt: Date!
     updatedAt: Date!
 }
+
+extend type Subscription{
+    userCreated: User
+}
 `
